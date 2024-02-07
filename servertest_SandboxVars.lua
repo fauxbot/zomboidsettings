@@ -299,7 +299,7 @@ SandboxVars = {
     -- 1 = Never
     -- 2 = Once
     -- 3 = Sometimes
-    Helicopter = 2,
+    Helicopter = 1,
     -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
     -- 1 = Never
     -- 2 = Sometimes
@@ -640,5 +640,19 @@ SandboxVars = {
         StrengthXPMultiply = 1.0,
         -- Minimum=0.00 Maximum=100.00 Default=1.00
         SprintingXPMultiply = 1.0,
+    },
+    ExpandedHeli = {
+        SchedulerDuration = 90,
+        StartDay = 1,
+        ContinueScheduling = false,
+        ContinueSchedulingLateGameOnly = true,
+        Frequency_jet = 3,
+        Frequency_police = 3,
+        Frequency_news_chopper = 3,
+        Frequency_military = 3,
+        Frequency_FEMA_drop = 3,
+        Frequency_samaritan_drop = 3,
+        Frequency_survivor_heli = 3,
+        Frequency_raiders = 3,
     },
 }
