@@ -614,4 +614,19 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
+    ExpandedHeli = {
+        SchedulerDuration = 90,
+        StartDay = 1,
+        ContinueScheduling = false,
+        ContinueSchedulingLateGameOnly = true,
+        -- Frequencies: 1="Never", 2="Rare", 3="Uncommon", 4="Common", 5="Frequent", 6="Insane"
+        Frequency_jet = 3,
+        Frequency_police = 3,
+        Frequency_news_chopper = 3,
+        Frequency_military = 3,
+        Frequency_FEMA_drop = 3,
+        Frequency_samaritan_drop = 3,
+        Frequency_survivor_heli = 3,
+        Frequency_raiders = 3,
+    },
 }
