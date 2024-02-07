@@ -641,4 +641,19 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=1.00
         SprintingXPMultiply = 1.0,
     },
+    ExpandedHeli = {
+        SchedulerDuration = 90,
+        StartDay = 1,
+        ContinueScheduling = false,
+        ContinueSchedulingLateGameOnly = true,
+        -- Frequencies: 1="Never", 2="Rare", 3="Uncommon", 4="Common", 5="Frequent", 6="Insane"
+        Frequency_jet = 3,
+        Frequency_police = 3,
+        Frequency_news_chopper = 3,
+        Frequency_military = 3,
+        Frequency_FEMA_drop = 3,
+        Frequency_samaritan_drop = 3,
+        Frequency_survivor_heli = 3,
+        Frequency_raiders = 3,
+    },
 }
